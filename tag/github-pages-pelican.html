@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+        <meta charset="utf-8" />
+        <title>genejiang - github pages， Pelican</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">genejiang </a></h1>
+                <nav><ul>
+                    <li><a href="/category/technology.html">Technology</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/create-blog.html">使用Pelican和GitHub Pages搭建个人博客</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2014-12-26T00:00:00+01:00">
+                Published: 周五 26 十二月 2014
+        </abbr>
+		<br />
+        <abbr class="modified" title="2014-12-26T00:00:00+01:00">
+                Updated: 周五 26 十二月 2014
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/gene.html">Gene</a>
+        </address>
+<p>In <a href="/category/technology.html">Technology</a>. </p>
+<p>tags: <a href="/tag/github-pages-pelican.html">github pages， Pelican</a> </p>
+</footer><!-- /.post-info --><h2>Cool求解器的心得.md</h2>
+<p>主要记录在日常工作中，对cool求解器的所了解到的各种心得。</p>
+<ol>
+<li><a name="md-anchor" id="reading">阅读文档</a></li>
+<li><a name="md-anchor" id="testing">软件测试</a></li>
+<li><a name="md-anchor" id="verifying">Bug验证</a></li>
+</ol>
+<h3>3.<a href="#Verifying">Bug验证</a></h3>
+<p>主要是在验证Cool求解器的Issue当中，获得的各种经验的记录</p>
+<h4>3.1 Cool分析的迭代不能收敛，造成cool求解器的crash</h4>
+<ul>
+<li>
+<p>日期</p>
+<p>2014年12月24日 16:15:15    </p>
+</li>
+<li>
+<p>来源</p>
+<p><a href="https://jira.autodesk.com/browse/SIMMF-5300">SIMMF-5300</a><br />
+* 说明</p>
+<p>该模型因为材料的问题的，不能再cool求解的时候，造成cool不能迭代，造成cool求解器的崩溃。</p>
+</li>
+<li>
+<p>2016中的现象</p>
+<p>将<strong>Shrinkage Model</strong>调整到<strong>Uncorrect stress Model</strong>，发现能够分析。 </p>
+</li>
+</ul>
+<hr />                </article>
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
